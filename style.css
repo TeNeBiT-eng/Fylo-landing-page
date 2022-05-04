@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+  padding: 30px 0;
+}
+
+p {
+  text-align: center;
+  color: hsl(243deg, 87%, 12%);
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  padding-bottom: 30px;
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+  padding-top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+header nav .navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+header nav .navContainer div img {
+  width: 100px;
+}
+header nav .navContainer ul {
+  display: flex;
+  justify-content: space-around;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+header nav .navContainer ul li {
+  color: hsl(238deg, 22%, 44%);
+}
+
+.section1 .motherContainer {
+  margin-top: 100px;
+}
+.section1 .motherContainer div {
+  width: 85%;
+  margin: 0 auto;
+}
+.section1 .motherContainer div img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

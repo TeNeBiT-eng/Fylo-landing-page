@@ -1,0 +1,31 @@
+header{
+    font-family: $raleWay;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    nav{
+        .navContainer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 85%;
+            margin: 0 auto;
+            div{
+                img{
+                    width: 100px;
+                }
+            }
+            ul{
+                display: flex;
+                justify-content: space-around;
+                column-gap: 30px;
+                // width: 90%;
+                li{
+                    color: $bg_DesaturatedBlue;
+                }
+            }
+        }
+    }
+}
