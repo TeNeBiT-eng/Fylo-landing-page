@@ -39,16 +39,16 @@ header nav .navContainer {
   margin: 0 auto;
 }
 header nav .navContainer div img {
-  width: 100px;
+  width: 80px;
 }
 header nav .navContainer ul {
   display: flex;
-  justify-content: space-around;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  justify-content: space-evenly;
 }
 header nav .navContainer ul li {
   color: hsl(238deg, 22%, 44%);
+  font-size: 0.8rem;
+  padding-left: 1rem;
 }
 
 .section1 .motherContainer {

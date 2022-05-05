@@ -14,16 +14,18 @@ header{
             margin: 0 auto;
             div{
                 img{
-                    width: 100px;
+                    width: 80px;
                 }
             }
             ul{
                 display: flex;
-                justify-content: space-around;
-                column-gap: 30px;
+                justify-content: space-evenly;
+                // column-gap: 24px;
                 // width: 90%;
                 li{
                     color: $bg_DesaturatedBlue;
+                    font-size: 0.8rem;
+                    padding-left: 1rem;
                 }
             }
         }
