@@ -7,6 +7,43 @@
             img{
                 width: 100%;
             }
+            .section1_content div{
+                width: 100%;
+                margin: 0 auto;
+            }
+            input{
+                width: 100%;
+                padding: 0.5rem;
+            }
+            input::placeholder{
+                color: hsl(0, 0%, 85%);
+            }
+            button{
+                width: 100%;
+                padding: 0.5rem;
+                margin-top: 1rem;
+                border: none;
+                background-color: $bg_BrightBlue;
+                color: white;
+                border-radius: 2px;
+                box-shadow: 0px 0px 14px 6px rgb(227, 224, 224);
+            }
+        }
+    }
+}
+
+.section2{
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .motherContainer2{
+        margin-top: 100px;
+        div{
+            width:100%;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
         }
     }
 }
