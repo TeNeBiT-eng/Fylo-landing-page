@@ -1,6 +1,6 @@
 .section1{
     .motherContainer{
-        margin-top: 100px;
+        padding-top: 120px;
         div{
             width: 85%;
             margin: 0 auto;
@@ -35,11 +35,26 @@
 .section2{
     background-image: url(/images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-position-y: 115px;
+   @media (min-width: 768px) {
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 89px;
+   }
+    // background-position: center;
     .motherContainer2{
-        margin-top: 100px;
+        // margin-top: 10rem;
+        padding-top: 10rem;
+        .bg{
+            background-color: $text_LightGrayishBlue;   
+            width: 100%;         
+        }
         div{
-            width:100%;
+            
+            // background-color: $text_LightGrayishBlue;
+            width: 85%;
             margin: 0 auto;
             img{
                 width: 100%;

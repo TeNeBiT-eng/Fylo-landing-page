@@ -56,7 +56,7 @@ header nav .navContainer ul li {
 }
 
 .section1 .motherContainer {
-  margin-top: 100px;
+  padding-top: 120px;
 }
 .section1 .motherContainer div {
   width: 85%;
@@ -96,13 +96,26 @@ header nav .navContainer ul li {
 .section2 {
   background-image: url(/images/bg-curve-mobile.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position-y: 115px;
+}
+@media (min-width: 768px) {
+  .section2 {
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 89px;
+  }
 }
 .section2 .motherContainer2 {
-  margin-top: 100px;
+  padding-top: 10rem;
+}
+.section2 .motherContainer2 .bg {
+  background-color: hsla(240deg, 80%, 98%, 0.8);
+  width: 100%;
 }
 .section2 .motherContainer2 div {
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
 }
 .section2 .motherContainer2 div img {
