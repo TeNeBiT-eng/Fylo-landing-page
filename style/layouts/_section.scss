@@ -57,7 +57,7 @@
             margin: 0 auto;
             div{
                 padding-top: 50px;
-                img{
+                .illustration{
                     width: 100%;
                 }
             }
@@ -86,6 +86,29 @@
                 }
                 
             }
+        }
+    }
+}
+
+.card{
+    border: 1px solid #ffffffff;
+    padding: 2vh 3vw;
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    p, small{
+        text-align: start;
+        font-size: 14px;
+        color: rgb(158, 156, 156);
+    }
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
         }
     }
 }

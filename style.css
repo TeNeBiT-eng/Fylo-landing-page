@@ -121,7 +121,7 @@ header nav .navContainer ul li {
 .section2 .motherContainer2 div div {
   padding-top: 50px;
 }
-.section2 .motherContainer2 div div img {
+.section2 .motherContainer2 div div .illustration {
   width: 100%;
 }
 .section2 .motherContainer2 div div h1 {
@@ -144,4 +144,27 @@ header nav .navContainer ul li {
 .section2 .motherContainer2 div div .see_how img {
   width: 30px;
   padding: 4px;
+}
+
+.card {
+  border: 1px solid white;
+  padding: 2vh 3vw;
+  width: 85%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card p, .card small {
+  text-align: start;
+  font-size: 14px;
+  color: rgb(158, 156, 156);
+}
+.card .user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
