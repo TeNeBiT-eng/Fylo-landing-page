@@ -51,7 +51,7 @@ header nav .navContainer ul {
 }
 header nav .navContainer ul li {
   color: hsl(238deg, 22%, 44%);
-  font-size: 0.8rem;
+  font-size: 0.86rem;
   padding-left: 1rem;
 }
 
@@ -84,7 +84,7 @@ header nav .navContainer ul li {
 }
 .section1 .motherContainer div button {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.6rem;
   margin-top: 1rem;
   border: none;
   background-color: hsl(224deg, 93%, 58%);
@@ -118,6 +118,53 @@ header nav .navContainer ul li {
   width: 85%;
   margin: 0 auto;
 }
-.section2 .motherContainer2 div img {
+.section2 .motherContainer2 div div {
+  padding-top: 50px;
+}
+.section2 .motherContainer2 div div img {
   width: 100%;
+}
+.section2 .motherContainer2 div div h1 {
+  font-size: 1.1rem;
+}
+.section2 .motherContainer2 div div p {
+  text-align: start;
+}
+.section2 .motherContainer2 div div .see_how {
+  text-align: center;
+}
+.section2 .motherContainer2 div div .see_how a {
+  color: hsl(170deg, 45%, 43%);
+  text-underline-offset: 10px;
+}
+.section2 .motherContainer2 div div .see_how span {
+  position: relative;
+  top: 8px;
+}
+.section2 .motherContainer2 div div .see_how img {
+  width: 30px;
+  padding: 4px;
+}
+.section2 .motherContainer2 div div div {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px 4px grey;
+}
+.section2 .motherContainer2 div div div img {
+  width: 20px;
+}
+.section2 .motherContainer2 div div div p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.8;
+  text-align: start;
+}
+.section2 .motherContainer2 div div div .avatar_kyle {
+  display: grid;
+}
+.section2 .motherContainer2 div div div .avatar {
+  border-radius: 50%;
+  width: 30px;
 }/*# sourceMappingURL=style.css.map */
