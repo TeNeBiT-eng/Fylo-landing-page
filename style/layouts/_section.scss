@@ -26,7 +26,7 @@
                 background-color: $bg_BrightBlue;
                 color: white;
                 border-radius: 2px;
-                box-shadow: 0px 0px 14px 6px rgb(227, 224, 224);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
         }
     }
@@ -49,7 +49,8 @@
         padding-top: 10rem;
         .bg{
             background-color: $text_LightGrayishBlue;   
-            width: 100%;         
+            width: 100%;  
+            padding-bottom: 4rem;       
         }
         div{
             // background-color: $text_LightGrayishBlue;
@@ -90,6 +91,10 @@
     }
 }
 
+.card_bg{
+    background-color: $text_LightGrayishBlue;
+    padding-bottom: 5rem;
+}
 .card{
     border: 1px solid #ffffffff;
     padding: 2vh 3vw;
@@ -100,15 +105,26 @@
         text-align: start;
         font-size: 14px;
         color: rgb(158, 156, 156);
+        font-family: $openSans;
     }
     .user{
         display: flex;
         align-items: center;
         gap: 12px;
+        h4{
+            font-family: $openSans;
+        }
         img{
             width: 30px;
             height: 30px;
             border-radius: 50%;
         }
+    }
+}
+
+.section3{
+    background-color: $bg_DesaturatedBlue;
+    .motherContainer{
+        
     }
 }
