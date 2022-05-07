@@ -34,3 +34,13 @@ footer{
         }
     }
 }
+
+@media (min-width: 768px) {
+    .fylo_footer{
+        text-align: center;
+    }
+    .list_container{
+        display: flex;
+        justify-content: space-between;
+    }
+}

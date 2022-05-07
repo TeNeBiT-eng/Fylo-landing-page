@@ -1,4 +1,8 @@
 .section1{
+    // background-image: url(/images/bg-curve-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 53.2rem;
     .motherContainer{
         padding-top: 50px;
         div{
@@ -33,15 +37,18 @@
 }
 
 .section2{
-    background-image: url(/images/bg-curve-mobile.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 115px;
+    // background-image: url(/images/bg-curve-desktop.svg);
+    // background-repeat: no-repeat;
+    // background-size: 768px;
+    // background-position-y: 115px;
    @media (min-width: 768px) {
     background-image: url(/images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    // background-position-y: 89px;
+    background-position-y: 83px;
+    .bg_desktop{
+        display: none;
+    }
    }
     // background-position: center;
     .Container2{
@@ -97,6 +104,7 @@
     padding-bottom: 5rem;
 }
 .card{
+    background-color: white;
     border: 1px solid #ffffffff;
     padding: 2vh 3vw;
     width: 85%;
