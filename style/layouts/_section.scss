@@ -127,13 +127,20 @@
 .section3{
     background-color: $bg_DesaturatedBlue;
     padding-bottom: 4.3rem;
-    .motherContainer{
+    .Container3{
         .h2_p{
+            width: 100%;
+            // max-width: 500px;
+            h2{
+                width: 80%;
+                margin: 0 auto; 
+            }
             p{
-                width: 85%;
+                width: 80%;
                 margin: 0 auto;
                 color: white;
                 padding-top: 30px;
+                // text-align: center;
             }
         }
         .form{

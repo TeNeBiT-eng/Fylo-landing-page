@@ -61,8 +61,27 @@ h2 {
     font-size: 2rem;
     text-align: start;
   }
+
+  .Container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .Container3 .h2_p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Container3 .h2_p h2, .Container3 .h2_p p {
+    text-align: start;
+  }
+  .Container3 .form {
+    margin-block: auto;
+  }
+
+  .section3 {
+    padding-top: 4.3rem;
+  }
 }
-@media (min-width: 1100px) {
+@media (min-width: 768px) and (min-width: 1100px) {
   .input_button {
     display: flex;
     -moz-column-gap: 10px;
@@ -271,31 +290,38 @@ header nav .navContainer ul li {
   background-color: hsl(238deg, 22%, 44%);
   padding-bottom: 4.3rem;
 }
-.section3 .motherContainer .h2_p p {
-  width: 85%;
+.section3 .Container3 .h2_p {
+  width: 100%;
+}
+.section3 .Container3 .h2_p h2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.section3 .Container3 .h2_p p {
+  width: 80%;
   margin: 0 auto;
   color: white;
   padding-top: 30px;
 }
-.section3 .motherContainer .form form {
+.section3 .Container3 .form form {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
-.section3 .motherContainer .form form input {
+.section3 .Container3 .form form input {
   padding: 0.6rem;
   width: 90%;
 }
-.section3 .motherContainer .form form ::-moz-placeholder {
+.section3 .Container3 .form form ::-moz-placeholder {
   color: hsl(0deg, 0%, 85%);
 }
-.section3 .motherContainer .form form :-ms-input-placeholder {
+.section3 .Container3 .form form :-ms-input-placeholder {
   color: hsl(0deg, 0%, 85%);
 }
-.section3 .motherContainer .form form ::placeholder {
+.section3 .Container3 .form form ::placeholder {
   color: hsl(0deg, 0%, 85%);
 }
-.section3 .motherContainer .form form .getstarted_btn {
+.section3 .Container3 .form form .getstarted_btn {
   width: 90%;
   padding: 0.6rem;
   margin-top: 1rem;
