@@ -61,6 +61,9 @@ h2 {
     font-size: 2rem;
     text-align: start;
   }
+  .Container2 .Container2_2 .subchild_2 .see_how {
+    text-align: start;
+  }
 
   .Container3 {
     display: grid;
