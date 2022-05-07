@@ -28,9 +28,9 @@ footer{
             color: white;
             font-family: $openSans;
             cursor: pointer;
-            :hover{
-                color: hsl(238, 22%, 44%);
-            }
+        }
+        .about span:hover{
+            color: hsl(238, 22%, 44%);
         }
     }
 }

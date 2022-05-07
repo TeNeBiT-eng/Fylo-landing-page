@@ -68,7 +68,7 @@ footer .list_container .about li {
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
 }
-footer .list_container .about li :hover {
+footer .list_container .about span:hover {
   color: hsl(238deg, 22%, 44%);
 }
 
@@ -105,9 +105,6 @@ header nav .navContainer ul li {
   font-size: 0.86rem;
   padding-left: 1rem;
   cursor: pointer;
-}
-header nav .navContainer ul li a {
-  color: hsl(243deg, 87%, 12%);
 }
 
 .section1 .motherContainer {
