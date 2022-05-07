@@ -37,6 +37,39 @@ h2 {
 footer {
   background-color: hsl(243deg, 87%, 12%);
 }
+footer .fylo_footer {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+footer .list_container {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .list_container ul {
+  padding-top: 30px;
+}
+footer .list_container .img_phone {
+  padding-top: 20px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+footer .list_container .img_phone :hover {
+  color: hsl(238deg, 22%, 44%);
+}
+footer .list_container .img_phone span {
+  padding-inline: 15px;
+}
+footer .list_container .about li {
+  padding-top: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+footer .list_container .about li :hover {
+  color: hsl(238deg, 22%, 44%);
+}
 
 header {
   font-family: "Raleway", sans-serif;
@@ -70,6 +103,7 @@ header nav .navContainer ul li {
   color: hsl(238deg, 22%, 44%);
   font-size: 0.86rem;
   padding-left: 1rem;
+  cursor: pointer;
 }
 
 .section1 .motherContainer {
