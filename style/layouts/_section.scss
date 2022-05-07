@@ -38,13 +38,13 @@
     background-size: 100%;
     background-position-y: 115px;
    @media (min-width: 768px) {
-    background-image: url(/images/bg-curve-mobile.svg);
+    background-image: url(/images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: 89px;
+    // background-position-y: 89px;
    }
     // background-position: center;
-    .motherContainer2{
+    .Container2{
         // margin-top: 10rem;
         padding-top: 10rem;
         .bg{
@@ -92,7 +92,7 @@
 }
 
 .card_bg{
-    background-color: $text_LightGrayishBlue;
+    // background-color: $text_LightGrayishBlue;
     padding-bottom: 5rem;
 }
 .card{

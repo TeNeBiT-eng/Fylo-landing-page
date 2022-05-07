@@ -17,6 +17,20 @@
           }
       }  
     }
+
+    .Container2{
+        display: flex;
+        justify-content: center;
+        align-items: fl;
+        .Container2_2{
+            .subchild_2{
+                h1{
+                    font-size: 2rem;
+                    text-align: start;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1100px) {
