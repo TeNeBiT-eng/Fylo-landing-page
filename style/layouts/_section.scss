@@ -58,6 +58,7 @@
             margin: 0 auto;
             div{
                 padding-top: 50px;
+                // margin: 0;
                 .illustration{
                     width: 100%;
                 }
@@ -110,7 +111,8 @@
     .user{
         display: flex;
         align-items: center;
-        gap: 12px;
+        // justify-content: center;
+        gap: 1px;
         h4{
             font-family: $openSans;
         }

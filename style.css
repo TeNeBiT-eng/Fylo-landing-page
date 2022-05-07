@@ -55,7 +55,7 @@ h2 {
   .Container2 {
     display: flex;
     justify-content: center;
-    align-items: fl;
+    align-items: flex-start;
   }
   .Container2 .Container2_2 .subchild_2 h1 {
     font-size: 2rem;
@@ -256,7 +256,7 @@ header nav .navContainer ul li {
 .card .user {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 1px;
 }
 .card .user h4 {
   font-family: "Open Sans", sans-serif;
