@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    
+    .motherContainer{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+        padding-top: 50px;
+        .illustration1{
+            order: 2;
+        }
+      .section1_content{
+          h1, p{
+              text-align: start;
+          }
+      }  
+    }
+}
+
+@media (min-width: 1100px) {
+    .input_button{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        form button{
+            margin-bottom: 15px;
+        }
+    }
+}

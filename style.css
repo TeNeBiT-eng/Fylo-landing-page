@@ -35,6 +35,35 @@ h2 {
   padding-top: 4rem;
 }
 
+@media (min-width: 768px) {
+  .motherContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    padding-top: 50px;
+  }
+  .motherContainer .illustration1 {
+    order: 2;
+  }
+  .motherContainer .section1_content h1, .motherContainer .section1_content p {
+    text-align: start;
+  }
+}
+@media (min-width: 1100px) {
+  .input_button {
+    display: flex;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    align-items: center;
+  }
+  .input_button form button {
+    margin-bottom: 15px;
+  }
+}
 footer {
   background-color: hsl(243deg, 87%, 12%);
 }
@@ -90,7 +119,7 @@ header nav .navContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 header nav .navContainer div img {
@@ -108,7 +137,7 @@ header nav .navContainer ul li {
 }
 
 .section1 .motherContainer {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 .section1 .motherContainer div {
   width: 85%;
@@ -168,7 +197,7 @@ header nav .navContainer ul li {
   padding-bottom: 4rem;
 }
 .section2 .motherContainer2 div {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 .section2 .motherContainer2 div div {
@@ -259,7 +288,7 @@ header nav .navContainer ul li {
 .section3 .motherContainer .form form ::placeholder {
   color: hsl(0deg, 0%, 85%);
 }
-.section3 .motherContainer .form form button {
+.section3 .motherContainer .form form .getstarted_btn {
   width: 90%;
   padding: 0.6rem;
   margin-top: 1rem;
@@ -267,4 +296,9 @@ header nav .navContainer ul li {
   background-color: hsl(224deg, 93%, 58%);
   color: white;
   border-radius: 2px;
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: hsl(224deg, 93%, 58%);
 }/*# sourceMappingURL=style.css.map */
