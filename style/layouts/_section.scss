@@ -124,7 +124,39 @@
 
 .section3{
     background-color: $bg_DesaturatedBlue;
+    padding-bottom: 4.3rem;
     .motherContainer{
-        
+        .h2_p{
+            p{
+                width: 85%;
+                margin: 0 auto;
+                color: white;
+                padding-top: 30px;
+            }
+        }
+        .form{
+            form{
+                width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                input{
+                    padding: 0.6rem;
+                    width: 90%;
+                }
+                ::placeholder{
+                    color: hsl(0, 0%, 85%);
+                }
+               button{
+                width: 90%;
+                padding: 0.6rem;
+                margin-top: 1rem;
+                border: none;
+                background-color: $bg_BrightBlue;
+                color: white;
+                border-radius: 2px;
+                
+               } 
+            }
+        }
     }
 }

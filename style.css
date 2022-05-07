@@ -30,6 +30,8 @@ h2 {
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
   color: white;
+  text-align: center;
+  padding-top: 4rem;
 }
 
 header {
@@ -192,4 +194,38 @@ header nav .navContainer ul li {
 
 .section3 {
   background-color: hsl(238deg, 22%, 44%);
+  padding-bottom: 4.3rem;
+}
+.section3 .motherContainer .h2_p p {
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+  padding-top: 30px;
+}
+.section3 .motherContainer .form form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section3 .motherContainer .form form input {
+  padding: 0.6rem;
+  width: 90%;
+}
+.section3 .motherContainer .form form ::-moz-placeholder {
+  color: hsl(0deg, 0%, 85%);
+}
+.section3 .motherContainer .form form :-ms-input-placeholder {
+  color: hsl(0deg, 0%, 85%);
+}
+.section3 .motherContainer .form form ::placeholder {
+  color: hsl(0deg, 0%, 85%);
+}
+.section3 .motherContainer .form form button {
+  width: 90%;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: hsl(224deg, 93%, 58%);
+  color: white;
+  border-radius: 2px;
 }/*# sourceMappingURL=style.css.map */
