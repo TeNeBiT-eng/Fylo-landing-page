@@ -34,6 +34,10 @@ h2 {
   padding-top: 4rem;
 }
 
+footer {
+  background-color: hsl(243deg, 87%, 12%);
+}
+
 header {
   font-family: "Raleway", sans-serif;
   padding-top: 20px;
@@ -228,8 +232,4 @@ header nav .navContainer ul li {
   background-color: hsl(224deg, 93%, 58%);
   color: white;
   border-radius: 2px;
-}
-
-footer {
-  background-color: hsl(243deg, 87%, 12%);
 }/*# sourceMappingURL=style.css.map */
