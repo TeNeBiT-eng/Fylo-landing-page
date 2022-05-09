@@ -43,21 +43,27 @@
     // background-repeat: no-repeat;
     // background-size: 768px;
     // background-position-y: 115px;
-   @media (min-width: 768px) {
-        background-image: url("images/bg-curve-desktop.svg");
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 500% 100%;
+    background-position: bottom;
+   @media (min-width: 768px) {}
+        background-image: url(/images/bg-curve-desktop.svg);
         background-repeat: no-repeat;
-        background-size: 300% 100%;
+        background-size: 400% 100%;
         background-position: bottom;
+   }
     .bg_desktop{
         display: none;
     }
-   }
+
+   
     // background-position: center;
     .Container2{
         // margin-top: 10rem;
         padding-top: 10rem;
         .bg{
-            background-color: $text_LightGrayishBlue;   
+            // background-color: $text_LightGrayishBlue;   
             width: 100%;  
             padding-bottom: 4rem;       
         }
@@ -99,7 +105,8 @@
             }
         }
     }
-}
+
+
 
 .card_bg{
     // background-color: $text_LightGrayishBlue;
