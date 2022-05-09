@@ -44,10 +44,10 @@
     // background-size: 768px;
     // background-position-y: 115px;
    @media (min-width: 768px) {
-    background-image: url(/images/bg-curve-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 83px;
+        background-image: url("images/bg-curve-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 300% 100%;
+        background-position: bottom;
     .bg_desktop{
         display: none;
     }

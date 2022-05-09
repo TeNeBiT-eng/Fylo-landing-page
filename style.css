@@ -228,10 +228,10 @@ header nav .navContainer ul li {
 
 @media (min-width: 768px) {
   .section2 {
-    background-image: url(/images/bg-curve-desktop.svg);
+    background-image: url("images/bg-curve-desktop.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 83px;
+    background-size: 300% 100%;
+    background-position: bottom;
   }
   .section2 .bg_desktop {
     display: none;
